@@ -1,11 +1,13 @@
 #!/bin/bash
 
+# On quitte le programme avec une erreur si aucun argument n'est donné
 if [ $# -ne 1 ]
 then
   echo "Un argument requis"
   exit 1
 fi
 
+# Cette fonction détermine si un nombre est premier
 is_prime() {
     if [ $1 -lt 1 ] 
     then
@@ -24,8 +26,10 @@ is_prime() {
     return 0
 }
 
+# On renomme la variable pour plus de clarté
 n=$1
-
+# On parcourt tous les nombres de 1 à n et on les affiche
+# seulement si ils sont premiers
 echo "Nombres premiers inférieurs à $n :"
 for (( j=1; j<n; j++ ))
 do

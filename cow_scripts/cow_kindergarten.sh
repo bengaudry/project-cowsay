@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# On affiche les 10 premiers entiers
 for i in {1..10}
 do
     clear
@@ -7,5 +8,6 @@ do
     sleep 1
 done
 
+# On efface la console
 clear
 cowsay -d " "
