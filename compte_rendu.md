@@ -25,3 +25,18 @@ Tous les scripts se trouvent dans /cow_scripts/{nom_du_script}.sh
 
 ### Crazy cow
 Pour ce script, nous avons choisi de réaliser une vache qui calcule la ou les solutions d'une équation du second degré
+
+
+## C
+Nous avons mis en place un fichier Makefile pour compiler le code simplement. 
+Il faut donc utiliser la commande `make` pour compiler le code et la commande `make clean` pour supprimer les fichiers compilés.
+
+Ensuit, il suffit d'exécuter les fichiers avec 
+```shell
+./newcow.o [options]
+./wildcow.o [options]
+./reading_cow.o [options]
+```
+
+# Automates
+Voir fichier tamagoshi.c
