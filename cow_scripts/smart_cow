@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]
+then
+  echo "Un argument requis"
+  exit 1
+fi
+
+result=$(echo "$1" | bc)
+cowsay -e $result $1 
