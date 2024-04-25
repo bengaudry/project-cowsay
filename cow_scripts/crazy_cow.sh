@@ -12,15 +12,21 @@ a="$1"
 b="$2"
 c="$3"
 
+# On calcule le discriminant de l'équation
 delta=$((b*b-4*a*c))
-if [ "$delta" -gt 0 ]; then
-  rac=$(bc -l <<<"sqrt($delta)")
-  x1=$(bc -l <<<"(-$b-$rac)/(2*$a)")
-  x2=$(bc -l <<<"(-$b+$rac)/(2*$a)")
-  echo "Les solutions sont x1 = $x1 et x2 = $x2"
-elif [ "$delta" -eq 0 ]; then
-  sol=$(bc -l <<<"-$b/(2*$a)")
-  echo "La solution double est x = $sol"
+
+if [ "$delta" -gt 0 ]
+then
+  # On calcule sqrt(delta) et les solutions puis on les affiche
+  rac=$(echo "sqrt($delta)" | bc -l)
+  x1=$(echo "(-$b-$rac)/(2*$a)" | bc -l)
+  x2=$(echo "(-$b+$rac)/(2*$a)" | bc -l)
+  cowsay "x=$x1 ou x=$x2"
+elif [ "$delta" -eq 0 ]
+then
+  # On calcule puis on affiche l'unique solution
+  sol=$(echo "-$b/(2*$a)" | bc -l)
+  cowsay "x = $sol"
 else
-  echo "Pas de solution réelle"
+  cowsay "Pas de solutions réelles"
 fi
