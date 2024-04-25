@@ -20,7 +20,7 @@ then
   x1=$((-$b-$rac/(2*$a)))
   x2=$((-$b+$rac/(2*$a)))
   cowsay "$1 et $2"
-elif [ $delta -e 0 ]
+elif [ $delta -eq 0 ]
 then
   sol=$((-$b/2*$a))
   cowsay $sol
