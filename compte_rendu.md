@@ -36,6 +36,14 @@ Ensuit, il suffit d'exécuter les fichiers avec
 ./newcow.o [options]
 ./wildcow.o [options]
 ./reading_cow.o [options]
+./crazycow.o [options]
+```
+
+### Crazy cow
+Pour utiliser la fonctionnalité de vache animée sur le script crazy cow, il faut 
+utiliser la commande
+```shell
+./crazycow.o --wild
 ```
 
 # Automates

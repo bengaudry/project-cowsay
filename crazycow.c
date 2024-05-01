@@ -35,10 +35,10 @@ int main(int argc,char *argv[]) {
     int len_legs=0;
 
     for (int i=1; i<argc; i++) {
-        if (strcmp(argv[i],"-eyes")==0) strcpy(eyes, argv[i+1]);
-        if (strcmp(argv[i],"-tong")==0) strcpy(tong, argv[i+1]);
-        if (strcmp(argv[i],"-legs")==0) sscanf(argv[i+1], "%d", &len_legs);
-        if (strcmp(argv[i],"-wild")==0) { wild_cow(); return 0; }
+        if (strcmp(argv[i],"--eyes")==0) strcpy(eyes, argv[i+1]);
+        if (strcmp(argv[i],"--tong")==0) strcpy(tong, argv[i+1]);
+        if (strcmp(argv[i],"--legs")==0) sscanf(argv[i+1], "%d", &len_legs);
+        if (strcmp(argv[i],"--wild")==0) { wild_cow(); return 0; }
     }
 
     affiche_vache(eyes,tong,len_legs);
