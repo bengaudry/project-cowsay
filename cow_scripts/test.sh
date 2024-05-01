@@ -8,9 +8,9 @@ sleep 2
 
 echo "TEST 3 - cow_primaryschool.sh (doit renvoyer une erreur)"
 sleep 2
-./cow_primaryschool.sh -1
+./cow_primaryschool.sh 0
 
-echo "TEST 4 - cow_highscool.sh (doit afficher 1, 4, 9, 16)"
+echo "TEST 4 - cow_highschool.sh (doit afficher 1, 4, 9, 16)"
 sleep 2
 ./cow_highscool.sh 4
 
