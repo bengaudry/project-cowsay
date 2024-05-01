@@ -2,10 +2,10 @@ echo "TEST 1 - cow_kindergarten.sh"
 ./cow_kindergarten.sh
 
 echo "TEST 2 - cow_primaryschool.sh (doit fonctionner normalement)"
-./cow_kindergarten.sh 4
+./cow_primaryschool.sh 4
 
 echo "TEST 3 - cow_primaryschool.sh (doit renvoyer une erreur)"
-./cow_kindergarten.sh -1
+./cow_primaryschool.sh -1
 
 echo "TEST 4 - cow_highscool.sh (doit afficher 1, 4, 9, 16)"
 ./cow_highscool.sh 4
