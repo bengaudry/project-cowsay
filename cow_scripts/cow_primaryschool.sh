@@ -7,6 +7,12 @@ then
     exit
 fi
 
+if [$1 -le 0 ]
+then
+  echo "n doit être supérieur ou égal à 1"
+  exit
+fi
+
 # On affiche les n premiers entiers
 for (( i=1; i<=$1; i++ ))
 do
