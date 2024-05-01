@@ -1,6 +1,6 @@
 # Projet cowsay - INF203
-Ben Gaudry - Remi Cortial - IMA03
 
+Ben Gaudry - Remi Cortial - IMA03
 
 ## Préliminaires
 
@@ -34,11 +34,33 @@ Il faut donc utiliser la commande `make` pour compiler le code et la commande `m
 
 Ensuit, il suffit d'exécuter les fichiers avec 
 ```shell
+cd ./c
 ./newcow.o [options]
 ./wildcow.o [options]
 ./reading_cow.o [options]
 ./crazycow.o [options]
 ```
+
+### Outputs
+
+Voici quelques tests que nous avons réalisé :
+
+(si les images ne s'affichent pas, voir dans le dossier __/assets__, ou voir sur [github](https://github.com/bengaudry/project-cowsay/blob/main/compte_rendu.md))
+
+__newcow.c__
+![](assets/newcow_output.png)
+
+__reading_cow.c__
+
+En exécutant la commande 
+```shell 
+./reading_cow.o testfile.txt
+```
+on obtient à la fin ce résultat :
+
+![](assets/reading_cow_output.png)
+
+Le fichier __crazycow.c__ est animé donc impossible à montrer avec une image.
 
 ### Crazy cow
 Pour utiliser la fonctionnalité de vache animée sur le script crazy cow, il faut 
@@ -48,4 +70,4 @@ utiliser la commande
 ```
 
 # Automates
-Voir fichier tamagoshi.c
+Voir fichier __c/tamagoshi.c__
