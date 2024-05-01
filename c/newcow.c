@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
                 }
                 if (strlen(argv[i + 1]) != 2)
                 {
-                    printf("Le contenu de la langue (-T option) ne doit pas dépasser deux charactères\n");
+                    printf("Le contenu de la langue (-T option) doit être de deux charactères\n");
                     return 1;
                 }
                 default_settings.tongue_content = argv[i + 1];
