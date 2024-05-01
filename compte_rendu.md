@@ -21,7 +21,8 @@ Les différentes options de la commande cowsay sont :
 | -y                 | Les yeux de la vache deviennent très petits                                         |
 
 ## Bash
-Tous les scripts se trouvent dans /cow_scripts/{nom_du_script}.sh
+Tous les scripts se trouvent dans /cow_scripts/{nom_du_script}.sh.
+
 Il est possible de tester les scripts avec le fichier test.sh mais il est 
 nécessaire d'effectuer d'autres tests plus poussés au cas par cas
 
