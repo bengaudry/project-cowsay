@@ -77,3 +77,9 @@ Voir fichier __c/tamagoshi.c__
 Pour la partie automate nous avons choisi de définir les 3 états de notre Tamagoshi, puis une fonction transition en utilisant "switch" qui va modifier l'état en fonction de la valeur de la variable "fitness", selon l'énoncé.
 On aurait pu utiliser un type structuré comme vu dans certains TP mais on s'est rendu compte que ce n'était pas forcément utile étant donné qu'il n'y avait que 3 états et assez peu de transitions.
 À chaque changement d'état, la vache est affichée selon son état de santé, le stock de nourriture est affiché et l'utilisateur doit choisir la quantité de nourriture à donner.
+
+Exemple d'utilisation du jeu : 
+
+![](assets/tamagoshi1.png)
+![](assets/tamagoshi2.png)
+![](assets/tamagoshi3.png)
