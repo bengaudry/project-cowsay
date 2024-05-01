@@ -42,5 +42,6 @@ int main(int argc,char *argv[]) {
     }
 
     affiche_vache(eyes,tong,len_legs);
+    wild_cow();
     return 0;
 }
