@@ -15,7 +15,7 @@ void affiche_vache(Settings settings)
         eyes_content = "xx";
     } 
 
-    printf("\\   ^__^\n \\  (%s)\\_______\n    (%s)\\       )\\/\\\n     %c  ||----w |\n", eyes_content, settings.tongue_content, tongue);
+    printf("    ^__^\n    (%s)\\_______\n    (%s)\\       )\\/\\\n     %c  ||----w |\n", eyes_content, settings.tongue_content, tongue);
 
     for (int i = 1; i <= settings.height; i++)
     {

@@ -22,10 +22,11 @@ Les différentes options de la commande cowsay sont :
 
 ## Bash
 Tous les scripts se trouvent dans /cow_scripts/{nom_du_script}.sh
+Il est possible de tester les scripts avec le fichier test.sh mais il est 
+nécessaire d'effectuer d'autres tests plus poussés au cas par cas
 
 ### Crazy cow
 Pour ce script, nous avons choisi de réaliser une vache qui calcule la ou les solutions d'une équation du second degré
-
 
 ## C
 Nous avons mis en place un fichier Makefile pour compiler le code simplement. 
