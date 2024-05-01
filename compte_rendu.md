@@ -48,6 +48,7 @@ Voici quelques tests que nous avons réalisé :
 (si les images ne s'affichent pas, voir dans le dossier __/assets__, ou voir sur [github](https://github.com/bengaudry/project-cowsay/blob/main/compte_rendu.md))
 
 __newcow.c__
+
 ![](assets/newcow_output.png)
 
 __reading_cow.c__
