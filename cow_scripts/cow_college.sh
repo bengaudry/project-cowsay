@@ -24,7 +24,7 @@ say $u0
 say $u1
 
 # On affiche tous les termes de la suite (jusqu'à n-1)
-for (( i=1; i<=$(($1-2)); i++ ))
+for (( i=1; i<=$(($1-1)); i++ ))
 do
     un=$(($u1+$u0))
     say $un
